@@ -283,9 +283,9 @@ a:hover {
     padding-left: 0;
 }
 
-#bloc-1-hero h1 {
+/*#bloc-1-hero h1 {
     font-size: 32px;
-}
+} -----------suppression de l'id ---*/
 
 .navbar {
     margin-bottom: 0;
@@ -677,7 +677,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+/*--font-size: 11px; --- ancienne font-size suprimée */
+    font-size: 16px; /*-- nouvelle font-size (acessibilité numérique)--*/
 }
 
 .tight-width-whitespace {
@@ -822,7 +823,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
