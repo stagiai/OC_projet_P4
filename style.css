@@ -711,6 +711,12 @@ label, #bloc-5-cta p
     font-weight: 400;
     color: white!important;/*-- changement de gris à blanc du text des balises label  --*/
 }
+h2
+{
+    font-family: "helvetica";
+    font-weight: 400;
+    color: black!important;/*-- changement de blanc à noir du texte de h2  --*/
+}
 
 p,
 .btn,
