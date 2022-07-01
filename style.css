@@ -89,12 +89,12 @@ a:hover {
     left: 0;
     right: 0;
 }
-
+/*-- supprimer la texture-paper pour rendre les textes plus isibles ------
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
-
+----------------------------------------------------------------------*/
 .b-parallax {
     background-attachment: fixed;
 }
@@ -121,34 +121,46 @@ a:hover {
 
 .d-bloc .a-btn,
 .d-bloc .navbar a,
+/*---------------------navbar-brand n'est plus utilisé---------------
 .d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
+------------------------------------------------*/
 .d-bloc a .icon-md,
 .d-bloc a .icon-lg,
+/*-----------icons non utilisés--------------------------------
+.d-bloc a .icon-sm,
 .d-bloc a .icon-xl,
+/* ------------------------------------------------------------------- */
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
+/*-----------------h4, h5, h6 non utilisés------------------------
 .d-bloc h4 a,
 .d-bloc h5 a,
 .d-bloc h6 a,
+--------------------------------------------------------------*/
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
+/*----------navbar-brand n'est plus utilisé-----------------
 .d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
+------------------------------------------------------------*/
 .d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
+/*--------------------icons non utilisés--------------------
+.d-bloc a:hover .icon-sm,
 .d-bloc a:hover .icon-xl,
+---------------------------------------------------*/
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
+/*---------------h4, h5, h6 non utilisés------------------------
 .d-bloc h4 a:hover,
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
+--------------------------------------------------------------*/
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
 }
@@ -162,7 +174,7 @@ a:hover {
     color: rgba(255, 255, 255, 1);
     border-color: rgba(255, 255, 255, 1);
 }
-
+/*--------panel non utilisé------------------
 .d-bloc .panel {
     color: rgba(0, 0, 0, .5);
 }
@@ -202,7 +214,7 @@ a:hover {
 .l-bloc button:hover {
     color: rgba(0, 0, 0, .7);
 }
-
+------------------------------------------------------------*/
 .l-bloc .icon-round,
 .l-bloc .icon-square,
 .l-bloc .icon-rounded,
@@ -210,44 +222,59 @@ a:hover {
 .l-bloc .icon-semi-rounded-b {
     border-color: rgba(0, 0, 0, .7);
 }
-
+/*--------panel non utilisé------------------
 .d-bloc .panel .divider-h span,
+--------------------------------------------*/
 .l-bloc .divider-h span {
     border-color: rgba(0, 0, 0, .1);
 }
-
+/*--------panel non utilisé------------------
 .d-bloc .panel .a-btn,
+/* ---------------------------------------------* */
 .l-bloc .a-btn,
 .l-bloc .navbar a,
+/*-----------------navbar-brand n'est plus utilisé-------------------
 .l-bloc .navbar-brand,
-.l-bloc a .icon-sm,
+---------------------------------------------------------------*/
 .l-bloc a .icon-md,
 .l-bloc a .icon-lg,
+/*----------------icons non utilisés--------------------------------
+.l-bloc a .icon-sm,
 .l-bloc a .icon-xl,
+---------------------------------------------------*/
 .l-bloc h1 a,
 .l-bloc h2 a,
 .l-bloc h3 a,
+/*--- h4, h5, h6 non utilisés --------------------
 .l-bloc h4 a,
 .l-bloc h5 a,
 .l-bloc h6 a,
+--------------------------------------------------*/
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
 }
-
+/*--------panel non utilisé------------------
 .d-bloc .panel .a-btn:hover,
+-------------------------------------------*/
 .l-bloc .a-btn:hover,
 .l-bloc .navbar a:hover,
+/*----------------------navbar-brand n'est plus utilisé----------------
 .l-bloc .navbar-brand:hover,
-.l-bloc a:hover .icon-sm,
+-------------------------------------------------------------------*/
 .l-bloc a:hover .icon-md,
 .l-bloc a:hover .icon-lg,
+/*----------icons non utilisés------------------------------
+.l-bloc a:hover .icon-sm,
 .l-bloc a:hover .icon-xl,
+-----------------------------------------------------------*/
 .l-bloc h1 a:hover,
 .l-bloc h2 a:hover,
 .l-bloc h3 a:hover,
+/*---------------h4, h5, h6 non utlisés------------------------
 .l-bloc h4 a:hover,
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
+-------------------------------------------------------------*/
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
 }
@@ -255,9 +282,10 @@ a:hover {
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
 }
-
+/*--------panel non utilisé------------------
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover,
+-----------------------------------------------*/
 .l-bloc .btn-wire,
 .l-bloc .btn-wire:hover {
     color: rgba(0, 0, 0, .7);
@@ -291,7 +319,7 @@ a:hover {
     margin-bottom: 0;
     z-index: 1;
 }
-
+/*--------------------navbar-brand n'est plus utilisé---------------
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
@@ -314,6 +342,7 @@ a:hover {
 .nav-center .navbar-brand img {
     margin: 0;
 }
+----------------------------------------------------------*/
 
 .navbar .nav {
     padding-top: 2px;
@@ -327,11 +356,11 @@ a:hover {
     margin-top: 4px;
     font-size: 16px;
 }
-
+/*------------dropdown-menu non utilisé---------------------
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
-
+------------------------------------------------------------*/
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
@@ -355,14 +384,18 @@ a:hover {
     float: left;
 }
 
-.nav-invert .navbar-header,
-.nav-invert .navbar-brand {
+.nav-invert .navbar-header
+/*---------------navbar-brand n'est plus utilisé-----------------
+.nav-invert .navbar-brand 
+------------------------------------------------------------------*/
+{
     float: right;
     position: relative;
     z-index: 2;
 }
 
 @media (min-width: 768px) {
+    /*-----------site-navigation n'est plus utilisé------------
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -370,14 +403,21 @@ a:hover {
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
+    -----------------------------------------------------------*/
+    /*------------dropdown-menu non utilisé---------------------
+
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
     }
+    /* ------------------------------------------------------* */
+    /*-----------site-navigation n'est plus utilisé------------
     .nav-invert .site-navigation {
         left: 0;
         right: 0;
     }
+    ----------------------------------------------------------*/
+    /*---------nav-center non utilisé------------------------------
     .nav-center {
         text-align: center;
     }
@@ -385,11 +425,17 @@ a:hover {
         width: 100%;
     }
     .nav-center .navbar-header,
+    ----------------------------------------------------------------*/
+/*---------------navbar-brand n'est plus utilisé---------------------
     .nav-center .navbar-brand,
+----------------------------------------------------------------------*/
+/*--------------------nav-center non utilisé------------------------------
     .nav-center .nav > li {
         float: none;
         display: inline-block;
     }
+------------------------------------------------------------------------*/
+    /*-----------site-navigation n'est plus utilisé------------
     .nav-center .site-navigation {
         position: relative;
         width: 100%;
@@ -397,10 +443,13 @@ a:hover {
         margin-right: 0px;
         margin-top: 20px;
     }
+    -----------------------------------------------------------*/
+    /*------------------------------mini-nav non utilisé------------
     .nav-center.mini-nav .navbar-toggle {
         float: none;
         margin: 10px auto 0;
     }
+    ----------------------------------------------------------------*/
 }
 
 .nav > li > .dropdown a {
@@ -408,10 +457,12 @@ a:hover {
     display: block;
     padding: 14px 15px;
 }
-
+/*-------------------caret non utilisé--------------------------
 nav .caret {
     margin: 0 5px;
 }
+----------------------------------------------------------------*/
+/*------------dropdown-menu non utilisé---------------------
 
 .dropdown-menu .dropdown-menu {
     top: -8px;
@@ -426,6 +477,7 @@ nav .caret {
     border-top-right-radius: 0;
 }
 
+
 .dropdown-menu .dropdown span {
     border: 4px solid black;
     border-top-color: transparent;
@@ -434,7 +486,7 @@ nav .caret {
     margin: 6px -5px 0 0!important;
     float: right;
 }
-
+-------------------------------------------------------------------*/
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -448,11 +500,11 @@ nav .caret {
 .btn {
     margin: 0 5px 5px 0;
 }
-
+/*----------pull-right non utilisé-------------------
 .btn.pull-right {
     margin: 0 0 5px 5px;
 }
-
+----------------------------------------------------*/
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
@@ -486,7 +538,7 @@ button {
 .sm-shadow {
     text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
 }
-
+/*--------panel non utilisé------------------
 .panel-sq,
 .panel-sq .panel-heading,
 .panel-sq .panel-footer {
@@ -504,6 +556,7 @@ button {
 .panel-rd .panel-footer {
     border-radius: 0 0 29px 29px;
 }
+-----------------------------------------------*/
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
@@ -524,12 +577,12 @@ button {
 .scrollToTop span {
     margin-top: 6px;
 }
-
+/*---------showScrollTop non utilisé-----------------------
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
 }
-
+---------------------------------------------------------*/
 a[data-lightbox] {
     position: relative;
     display: block;
@@ -559,7 +612,7 @@ a[data-lightbox]:hover img {
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
-
+/*----------modal non utilisé---------------------------------------
 #lightbox-modal {
     display: flex;
     align-items: center;
@@ -575,7 +628,8 @@ a[data-lightbox]:hover img {
     max-height: 90vh;
     margin: 0 auto;
 }
-
+-----------------------------------------------------------------*/
+/*-----------------lightbox-caption non utilisé------------------
 .lightbox-caption {
     padding: 20px;
     color: #FFF;
@@ -585,7 +639,8 @@ a[data-lightbox]:hover img {
     right: 15px;
     bottom: 5px;
 }
-
+------------------------------------------------------------------*/
+/*-----------close-lightbox, next-lightbox, prev-lightbox non utilisés------------
 .close-lightbox {
     color: #FFF;
     font-size: 30px;
@@ -628,30 +683,41 @@ a[data-lightbox]:hover img {
     padding: 6px 13px 1px 10px;
     left: 25px;
 }
+-------------------------------------------------------------------*/
+/*----------modal non utilisé---------------------------------------
 
 .snapshot-lb .modal-body {
     padding-bottom: 45px;
 }
-
+/* -----------------------------------------------------------------------*/
+/*-----------------lightbox-caption non utilisé------------------
 .snapshot-lb .lightbox-caption {
     padding: 0;
     color: rgba(0, 0, 0, .5);
     background: none;
 }
-
+-----------------------------------------------------------------*/
 h1,
 h2,
 h3,
+/*-------------h4, h5, h6 non utilisés ------------------------
 h4,
 h5,
 h6,
+---------------------------------------------------------------*/
+label, #bloc-5-cta p
+{
+    font-family: "helvetica";
+    font-weight: 400;
+    color: white!important;/*-- changement de gris à blanc du text des balises label  --*/
+}
+
 p,
-label,
 .btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: rgb(52, 52, 52)!important;/*-- changement de gris à blanc du text des balises label  --*/
 }
 
 .container {
@@ -685,9 +751,9 @@ p {
     max-width: 600px;
     margin: auto auto auto auto;
 }
-
-.h1 {
-    font-size: 20px;
+/*-- sélecteur ci-dessous .h1 corrigé en h1  --*/
+h1 {
+    font-size: 32px;
     font-family: "Open Sans";
 }
 
@@ -726,11 +792,11 @@ h3 {
 h1 {
     color: #333333!important;
 }
-
+/*-------------h4 non utilisé--------------------------
 h4 {
     color: #333333!important;
 }
-
+------------------------------------------------------*/
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -757,11 +823,12 @@ h4 {
     background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
-
+/*---------n'est plus utilisé---------
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
 }
+/* ------------------------------------- */
 
 .bgc-white {
     background-color: #FFFFFF;
@@ -831,6 +898,7 @@ h4 {
         padding-left: 20px;
         padding-right: 20px;
     }
+    /*---------------sélecteurs non utilisés-----------------
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
@@ -838,15 +906,18 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    ------------------------------------------------------*/
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
     }
+    /*----------nav-center non utilisé--------------------------
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    -------------------------------------------------------------*/
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -882,12 +953,14 @@ h4 {
         display: block;
         width: 100%;
     }
+    /*--------------------bloc-fill-screen non utilisés-----------------
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+    -----------------------------------------------------------------*/
 }
 
 @media (max-width: 767px) {
@@ -898,9 +971,11 @@ h4 {
     h1,
     h2,
     h3,
+    /*-------------h4, h5, h6 non utilisés -------------------------
     h4,
     h5,
     h6,
+    -------------------------------------------------------------*/
     p,
     #disqus_thread {
         padding-left: 10px!important;
@@ -918,12 +993,14 @@ h4 {
         margin-left: 0;
         margin-right: 0;
     }
+    /*-----------site-navigation n'est plus utilisé------------
     .site-navigation {
         position: inherit;
         transform: none;
         -webkit-transform: none;
         -ms-transform: none;
     }
+    /* -------------------------------------------------------------- */
     .nav > li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
@@ -935,6 +1012,7 @@ h4 {
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
+    /*-------------------caret non utilisé--------------------------
     .dropdown .dropdown a .caret {
         float: none;
         margin: 5px 0 0 10px!important;
@@ -943,6 +1021,7 @@ h4 {
         border-right-color: transparent;
         border-left-color: transparent;
     }
+    -------------------------------------------------------------------*/
     #hero-bloc .navbar .nav {
         background: rgba(0, 0, 0, .8);
     }
@@ -962,10 +1041,13 @@ h4 {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
+    /*-----------navbar-brand n'est plus utilisé-------------------
     .navbar-brand img {
         max-height: 40px;
         width: auto;
     }
+    ----------------------------------------------------------------*/
+    /*----------nav-invert non utilisé---------------
     .nav-invert .navbar-header {
         float: none;
         width: 100%;
@@ -974,12 +1056,15 @@ h4 {
         float: left;
         margin-left: 10px;
     }
+    -------------------------------------------*/
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
+    /*----------------bloc-xxl et bloc-xl non utilisés---------------------
     .bloc-xxl,
     .bloc-xl,
+    --------------------------------------------------------------------*/
     .bloc-lg {
         padding: 40px 0;
     }
@@ -988,6 +1073,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    /*-------------------sélecteurs non utilisés-------------
     .bloc-tile-2 .container,
     .bloc-tile-3 .container,
     .bloc-tile-4 .container,
@@ -996,6 +1082,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    -------------------------------------------------------*/
     .a-block {
         padding: 0 10px;
     }
@@ -1014,9 +1101,11 @@ h4 {
     form {
         padding: 5px;
     }
+    /*------------------close-lightbox non utilisé--------------
     .close-lightbox {
         display: inline-block;
     }
+    -------------------------------------------------------------*/
     .blocsapp-device-iphone5 {
         background-size: 216px 425px;
         padding-top: 60px;
